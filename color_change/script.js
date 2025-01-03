@@ -1,18 +1,16 @@
 //Q1.Color change
 // Create the "Change Color" button
 const colorBtn = document.createElement('button');
-colorBtn.id = 'colorBtn';
-colorBtn.innerHTML = 'Change Color';
+colorBtn.innerHTML = 'Change Color'; // Set the button's text
 
 // Create the "Cancel" button
 const cancelBtn = document.createElement('button');
-cancelBtn.innerHTML = 'Cancel';
+cancelBtn.innerHTML = 'Cancel'; // Set the button's text
 
 // Create the div element
 const myDiv = document.createElement('div');
-myDiv.id = 'myDiv';
 
-// Create a container for the buttons
+// Create a container for the buttons and style it
 const buttonContainer = document.createElement('div');
 buttonContainer.style.display = 'flex';
 buttonContainer.style.flexDirection = 'row';
@@ -27,7 +25,7 @@ buttonContainer.appendChild(cancelBtn);
 document.body.appendChild(buttonContainer);
 document.body.appendChild(myDiv);
 
-// Add styles to center elements and make the div bigger
+// Add styles to the elements and the div
 document.body.style.display = 'flex';
 document.body.style.flexDirection = 'column';
 document.body.style.alignItems = 'center';
